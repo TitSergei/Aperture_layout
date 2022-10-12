@@ -1,0 +1,282 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+:focus,
+:active {
+  outline: none;
+}
+a:focus,
+a:active {
+  outline: none;
+}
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+input::-ms-clear {
+  display: none;
+}
+button {
+  cursor: pointer;
+}
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+.wrapper {
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 400;
+  font-size: 14px;
+  background: #000;
+}
+
+.logo {
+  max-width: 1440px;
+  height: 90px;
+  background-color: #181818;
+  margin-bottom: -5px;
+}
+.logo__info {
+  max-width: 1200px;
+  height: 90px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  gap: 320.19px;
+}
+.logo__info_foto {
+  width: 128px;
+  height: 31px;
+}
+.logo__button {
+  width: 699.81px;
+}
+button {
+  color: #ffffff;
+  background-color: transparent;
+}
+.logo__button_1 {
+  font-size: 13px;
+  padding: 0 0 0 19.81px;
+}
+.logo__button_2 {
+  font-size: 15px;
+  padding: 0 0 0 56px;
+}
+.logo__button_3 {
+  font-size: 15px;
+  padding: 0 0 0 32px;
+}
+.logo__button_4 {
+  font-size: 15px;
+  padding: 0 51px 0 32px;
+}
+.logo__button_5 {
+  font-size: 16px;
+  padding: 9px 20px 13px 20px;
+  border-radius: 14px;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.header {
+  background: url(/IMG/IMAGE.png);
+  max-width: 1440px;
+  height: 716px;
+}
+
+.header__1 {
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 466px;
+  color: #ffffff;
+}
+.header__main {
+  color: #ffffff;
+  font-size: 54px;
+  text-align: center;
+  padding-top: 1px;
+}
+.header__2 {
+  color: #ffffff;
+  padding-top: 18px;
+  width: 580px;
+  height: 80px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.header__bottom {
+  width: 294.75px;
+  height: 16px;
+  margin-top: 14px;
+  margin-left: 1105.25px;
+  display: flex;
+}
+span {
+  font-size: 12px;
+  color: #ffffff;
+}
+.header__bottomfoto1 {
+  padding: 0 6.38px 0 16.13px;
+}
+.header__bottomfoto2 {
+  padding: 0 6px 0 16px;
+}
+.header__bottomfoto3 {
+  padding: 0 7px 0 16px;
+}
+.header__bottomfoto4 {
+  padding: 0 5px 0 16px;
+}
+.whatwedo {
+  background: #000000;
+}
+.whatwedo__what {
+  font-size: 40px;
+  text-align: center;
+  padding-top: 112px;
+  color: #ffffff;
+}
+.whatwedo__Theareas {
+  font-size: 23px;
+  color: #ffffff;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 42px;
+}
+.whatwedo__fotos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+}
+.whatwedo__first {
+  background: url(/IMG/whatwedo1.png);
+}
+.whatwedo__second {
+  background: url(/IMG/whatwedo2.png);
+}
+.whatwedo__third {
+  background: url(/IMG/whatwedo3.png);
+}
+.whatwedo__fourth {
+  background: url(/IMG/whatwedo4.png);
+}
+.whatfoto {
+  width: 576px;
+  height: 600px;
+}
+.whatwedo__header {
+  color: #ffffff;
+
+  padding: 421px 0 0 30px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.whatwedo__text {
+  color: #ffffff;
+  margin: 30px 0 0 30px;
+  height: 80px;
+}
+.whatwedo__button {
+  font-size: 20px;
+  letter-spacing: 0.4px;
+  color: #000000;
+  background: #ffffff;
+  height: 42px;
+  width: 143px;
+  margin-left: 30px;
+  border-radius: 14px;
+}
+.gridfotos {
+  margin-top: 100px;
+ display: grid;
+}
+.gridfotos__first {
+  background: url(/IMG/gridfotos1.png);
+  height: 600px;
+}
+.gridfotos__first_header {
+  color: #ffffff;
+  height: 280px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding: 260px 0 0 1080px;
+}
+.gridfotos__first_text {
+  padding-left: 1080px;
+  color: #ffffff;
+  height: 60px;
+}
+.gridfotos__first_bottom {
+  padding-top: 204px;
+  padding-left: 1143.25px;
+}
+.gridfotos__second {
+  background: #000;
+  height: 540px;
+  width: 720px;
+}
+.gridfotos__third {
+  background: url(/IMG/gridfotos3.png) no-repeat;
+  height: 540px;
+}
+.gridfotos__fourth {
+  background: url(/IMG/gridfotos4.png);
+  height: 600px;
+  width: 1440px;
+}
